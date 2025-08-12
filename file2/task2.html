@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+             position: fixed;
+             top: 0;
+             width: 100%;
+             background: wheat;
+             z-index: 3;
+        }
+        h1{
+            display:inline-block;
+        }
+        .sub{
+            display: inline-block;
+             padding-left: 1100px;
+        }
+        .p1,.p2,.p3{
+            display: inline;
+            padding: 5px;
+        }
+        .pic{
+            position: relative;
+        }
+        .pic+h1{
+            position: absolute;
+            top: 370px;
+            left: 650px;
+        
+        }
+        .hut{
+            display: inline-block;
+            width: 20%;
+            position: relative;
+            padding: 10px;
+        }
+        .house{
+            width:100%;
+            margin:40px;
+        }
+        .img{
+            width:100%;
+        }
+       .back{
+        position: absolute;
+        top: 0%;
+        background-color: black;
+        color: white;
+       }
+        .house1{
+            width: 100%;
+            margin: 40px;  
+        }
+        .hut1{
+            display: inline-block;
+            width: 20%;
+            position: relative;
+            padding: 10px;
+        }
+        .img1{
+            width:100%;
+        }
+       .back1{
+        position: absolute;
+        top: 0%;
+        background-color: black;
+        color: white;
+       }
+       .additional{
+        width: 100%;
+       }
+       .extra{
+        width: 20%;
+        display: inline-block;
+       }
+       .pht{
+        width: 100%;
+       }
+       .clr{
+        background-color: grey;
+        color: lightgrey;
+       }
+       .t1{
+        display: inline;
+        width:80%;
+        height: 35px;
+       }
+       .t2{
+        background-color:black;
+        color:whitesmoke;
+        width: 7.5%;
+    }
+
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <h1>BR Architects</h1>
+        <div class="sub">
+          <p class="p1">Projects</p>
+          <p class="p2">About</p>
+          <p class="p3">Contact</p> 
+       </div>
+  </div>
+<div>
+    <img src="./img/architect.jpg" alt="" class="pic">
+    <h1>BR Architects</h1>
+</div>
+<h1>Projects</h1>
+<div class="house">
+    <div class="hut">
+        <img src="./img/sum1.jpg" alt="" class="img">
+        <p class="back">SUMMER HOUSE</p>
+    </div>
+    <div class="hut">
+         <img src="./img/brick1.jpg" alt=""  class="img">
+        <p class="back">BRICK HOUSE</p>
+    </div>
+    <div class="hut"> 
+        <img src="./img/reno1.jpg" alt=""  class="img">
+        <p class="back">RENOVATED HOUSE</p>
+    </div>
+    <div class="hut">
+         <img src="./img/barn1.jpg" alt=""  class="img">
+        <p class="back">BARN HOUSE</p>
+    </div>
+</div>
+<div class="house1">
+    <div class="hut1">
+        <img src="./img/sum2.jpg" alt="" class="img1">
+        <p class="back1">SUMMER HOUSE</p>
+    </div>
+     <div class="hut1">
+        <img src="./img/brick2.jpg" alt="" class="img1">
+        <p class="back1">BRICK HOUSE</p>
+    </div>
+     <div class="hut1">
+        <img src="./img/reno2.jpg" alt="" class="img1">
+        <p class="back1">RENOVATED HOUSE</p>
+    </div>
+     <div class="hut1">
+        <img src="./img/barn2.jpg" alt="" class="img1">
+        <p class="back1">BRAN HOUSE</p>
+    </div>
+    </div>
+    <div class="about">
+        <h2>About</h2>
+        <p>
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+    </div>
+    <div class="additional">
+       <div class="extra">
+        <img src="./img/team2.jpg" alt="" class="pht">
+        <h2>John Doe</h2>
+        <p class="clr">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <center><input type="contact" placeholder="contact"></center>
+       </div>
+       <div class="extra">
+        <img src="./img/team1.jpg" alt="" class="pht">
+        <h2>Jane Doe</h2>
+        <p class="clr">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+        <center><input type="contact" placeholder="contact"></center>
+        </div>
+        <div class="extra">
+        <img src="./img/team3.jpg" alt=""class="pht">
+        <h2>Mike Ross</h2>
+        <p class="clr">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+        <center><input type="contact" placeholder="contact"></center>
+       </div>
+       <div class="extra">
+        <img src="./img/team4.jpg" alt="" class="pht">
+        <h2>Dan Star</h2>
+        <p class="clr">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum</p>
+        <center><input type="contact" placeholder="contact"></center>      
+       </div>
+    </div>
+    <h2>Contact</h2>
+    <p>Lets get in touch and talk about your next project.</p>
+    <input type="Name" placeholder="Name" class="t1"><br><br>
+    <input type="Name" placeholder="Email" class="t1"><br><br>
+    <input type="Name" placeholder="Subject" class="t1"><br><br>
+    <input type="Name" placeholder="Comment" class="t1"><br><br>
+    <input type="contact" placeholder="SEND MESSAGE" class="t2"><br><br>
+    <img src="./img/map.jpg" alt="">
+</body>
+</html>

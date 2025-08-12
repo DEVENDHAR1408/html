@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .main{
+        background-color: black;
+        height: 68px;
+        width: 100%;
+        color:olive;
+      }
+      .parent{
+        display: inline-block;
+        padding: 20px;
+        position: relative;
+
+      }
+      .child{
+        display: none;
+      }
+      .h2{
+        display: inline-block;
+      }
+      .parent:hover .child{
+        display: inline;
+        position: absolute;
+        color: brown;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+      <div class="parent">
+          <h2>Courses</h2>
+          <div class="child">
+            <p>Full Stack Development</p>
+            <p>AI and Ml</p>
+            <p>Data Science</p>
+            <p>IT</p>
+            <p>Cyber Security</p>
+          </div>
+      </div>
+      <div class="parent">
+          <h2>Tutorials</h2>
+          <div class="child">
+            <p>Python</p>
+            <p>Java</p>
+            <p>HTML</p>
+            <p>SQL</p>
+            <p>JavaScript</p>
+          </div>
+      </div>
+      <div class="parent">
+          <h2>Practices</h2>
+          <div class="child">
+            <p>Practice Coding Problems</p>
+            <p>Problem Solving</p>
+            <p>Problem Of the Day</p>
+            <p>Technical Skills</p>
+          </div>
+      </div>
+      <div class="parent">
+          <h2>Jobs</h2>
+          <div class="child">
+            <p>Become a Mentor</p>
+            <p>Apply Now</p>
+            <p>Post Jobs</p>
+            <p>Hiring Challenge</p>
+          </div>
+     </div>
+    </div>
+</body>
+</html>
